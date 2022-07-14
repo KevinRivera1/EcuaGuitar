@@ -18,7 +18,7 @@
 
 <body>
     <!--Comienza Nav -->
-    <header id="header">
+    <header id="header" class="sticky-top">
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img id="img__logo" src="./img/logo-transparente.png"
@@ -112,7 +112,7 @@
 
     <!--* Comienza los productos -->
 
-    <section id="productos">
+    <section id="productos" class="mt-5">
         <div class="productos container">
             <div class="row">
                 <div class="col text-center text-uppercase">
@@ -126,6 +126,8 @@
                     <div class="card" style="width: 18rem;">
                         <img src="./img/img1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
+                            <span class="badge rounded-pill bg-danger">#Fantastico</span>
+                            <span class="badge rounded-pill bg-warning text-dark">#Gibson</span>
                             <h5 class="card-title">GIBSON LPSPTH01WWCH1</h5>
                             <p class="card-text">Les Paul Special Tribute Humbucker Worn White – Cuerpo de caoba. Mástil
                                 de arce. Perfil redondeado.</p>
@@ -138,6 +140,8 @@
                     <div class="card" style="width: 18rem;">
                         <img src="./img/img2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
+                            <span class="badge rounded-pill bg-danger">#Fantastico</span>
+                            <span class="badge rounded-pill bg-warning text-dark">#Electrica</span>
                             <h5 class="card-title">GIBSON LPSPTH015NCH1</h5>
                             <p class="card-text">Les Paul Special Tribute Humbucker Natural Walnut – Cuerpo de caoba.
                                 Mástil de arce. Perfil redondeado.</p>
@@ -150,6 +154,8 @@
                     <div class="card" style="width: 18rem;">
                         <img src="./img/img3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
+                            <span class="badge rounded-pill bg-danger">#Fantastico</span>
+                            <span class="badge rounded-pill bg-warning text-dark">#Elec-Acustica</span>
                             <h5 class="card-title">CORDOBA GK PRO
                             </h5>
                             <p class="card-text">Guitarra Flamenca con corte; Parte superior: abeto europeo thomann
@@ -163,6 +169,8 @@
                     <div class="card" style="width: 18rem;">
                         <img src="./img/img5.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
+                            <span class="badge rounded-pill bg-danger">#Fantastico</span>
+                            <span class="badge rounded-pill bg-warning text-dark">#Acustica</span>
                             <h5 class="card-title">TAYLOR 214CE-K</h5>
                             <p class="card-text">Presenta hermosos laterales y laterales de koa superpuestos, una sólida
                                 tapa de pícea de Sitka, cuerpo brillante.</p>
@@ -175,6 +183,8 @@
                     <div class="card" style="width: 18rem;">
                         <img src="./img/img6.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
+                            <span class="badge rounded-pill bg-danger">#Fantastico</span>
+                            <span class="badge rounded-pill bg-warning text-dark">#Acustica</span>
                             <h5 class="card-title">TAYLOR BT1e</h5>
                             <p class="card-text"> El Baby Taylor de tamaño Standard estableció firmemente la categoría
                                 de guitarra de viaje hace años.</p>
@@ -187,6 +197,8 @@
                     <div class="card" style="width: 18rem;">
                         <img src="./img/img9.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
+                            <span class="badge rounded-pill bg-danger">#Fantastico</span>
+                            <span class="badge rounded-pill bg-warning text-dark">#Guitarra</span>
                             <h5 class="card-title">JACKSON Pro SL7P </h5>
                             <p class="card-text">cuerpo hecho de caoba y equipado con una tapa noble de álamo y dos
                                 potentes humbuckers Seymour SH-6.</p>
@@ -218,6 +230,55 @@
         </div>
     </section>
     <!--* Termina Eventos -->
+    
+     <!--* Inicia Inscripcion -->
+     <section id="conviertete-en_colaborador" class="pt-5 pb-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col text-uppercase text-center">
+                    <small>Conviertete en</small>
+                    <h2>COLABORADOR</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <p>Anotate como colaborador <abbr data-bs-toggle="tooltip" data-bs-html="true" title="Vendedor Oficial de ECUAGUITAR"> ECUAGUITAR</abbr> para ser parte de nuestra comunidad!</p>
+                </div>
+            </div>
+            <!--* Formulario -->
+            <div class="row">
+                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+                    <form class="form" action="">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="Nombre">
+                            <label for="floatingInput">Nombre</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="Apellido">
+                            <label for="floatingInput">Apellido</label>
+                        </div>
+
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Cuentanos porque quieres unirte a nosotros"
+                                id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Cuéntanos por qué quieres unirte a nosotros</label>
+                        </div>
+                        <div class="form-floating mt-3">
+                            <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#ModalFormulario">
+                                    Enviar
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
 
     <!--* comienza Footer -->
     <footer id="footer">
@@ -261,6 +322,34 @@
     </footer>
     <!--* Termina Footer -->
 
+    <!-- Modal -->
+    <div class="modal fade" id="ModalFormulario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Conviertete en colaborador</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <small>Ayudanos con tu correo electronico</small>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <div class="alert alert-danger" role="alert">
+                        Le enviaremos un correo de respuesta a su correo.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><a class="text-light" href="#conviertete-en_colaborador">Enviar</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Modal -->
+
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
@@ -269,6 +358,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
         crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>

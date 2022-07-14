@@ -65,6 +65,12 @@ a.navbar-brand {
 }
 
 /* Eventos */
+#eventos {
+    height     : 50vh;
+    display    : flex;
+    align-items: center;
+}
+
 .evento-marca {
     width        : 100%;
     background   : #f4f4f4f4;
@@ -115,6 +121,12 @@ a.navbar-brand {
     margin-top: 50px;
 }
 
-.btn__evento{
-    outline:#000000;
+.btn__evento {
+    outline: #000000;
+}
+
+/* Form colaboracion */
+#conviertete-en_colaborador {
+    background: #f4f4f4;
+    ;
 }
