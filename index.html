@@ -42,6 +42,9 @@
                                 <a class="nav-link" href="#eventos">Eventos</a>
                             </li>
                             <li class="nav-item m-3">
+                                <a class="nav-link" href="./equipo.html">Equipo</a>
+                            </li>
+                            <li class="nav-item m-3">
                                 <a class="nav-link" href="#footer">Contactanos</a>
                             </li>
                         </ul>
@@ -343,13 +346,27 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><a class="text-light" href="#conviertete-en_colaborador">Enviar</a></button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><a class="text-light" href="#conviertete-en_colaborador" onclick="Toasty( )">Enviar</a></button>
                 </div>
             </div>
         </div>
     </div>
     <!-- Fin Modal -->
-
+    <!--* Inicia Notificacion -->
+    <div class="position-fixed top-0 end-0 p-3" style="z-index: 11; margin-top:80px;">
+        <div id="liveToast" class="toast hide bg-danger" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header bg-danger text-light"style="border-bottom:1px solid white;">
+            <strong class="me-auto">ECUAGUITAR</strong>
+            <small class="text-light" >11 mins ago</small>
+            <button type="button" class="btn-close bg-danger" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="alert alert-info bg-danger text-light" style="border:none;" role="alert">
+            Enviado Correctamente
+        </div>
+        </div>
+      </div>
+    <!--* Termina Notificacion -->
+    
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
