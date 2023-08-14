@@ -10,7 +10,7 @@ Este es el archivo README para el sitio web de ECUAGUITAR. Contiene una descripc
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
+- [Vista Previa](#vista-previa)
 
 ## Descripción
 
