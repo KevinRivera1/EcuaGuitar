@@ -16,6 +16,8 @@ Este es el archivo README para el sitio web de ECUAGUITAR. Contiene una descripc
 
 ECUAGUITAR es el sitio web de una marca de instrumentos musicales diseñado para mostrar sus productos, eventos y permitir a los usuarios conectarse con la marca. El sitio web cuenta con un diseño receptivo y varias secciones, incluyendo un carrusel, catálogo de productos, eventos y un formulario de contacto para convertirse en colaborador.
 
+## Vista Previa
+[View Live Preview](https://kevinrivera1.github.io/EcuaGuitar/)
 ## Tecnologías
 
 - HTML5
